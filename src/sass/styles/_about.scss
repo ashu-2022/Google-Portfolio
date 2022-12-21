@@ -1,0 +1,114 @@
+.about-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.about-card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top : 30px;
+    padding: 20px;
+    .profilePic{
+        height: 90px;
+        border-radius: 50%;
+    }
+    .profileName{
+        font-size: 24px;
+        font-weight: 500;
+        margin: 3px 0px;
+    }
+    .profileDesc{
+        color: #5F6368;;
+    }
+    .downloadPic{
+        width: 28px;
+        padding-left: 10px;
+    }
+}
+
+
+.social-profile-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    img{
+        padding-bottom: 5px;
+    }
+}
+.profile-contacts{
+    color: #1a0dab;
+    a{
+        color: #1a0dab;
+    }
+}
+
+.social-profile{
+    cursor: pointer;
+    p{
+        color: #1a0dab;
+    }
+
+}
+
+.experience-container{
+    margin-left: 160px;
+    padding-right: 50px;
+}
+
+.quest-item{
+        cursor: pointer;
+}
+
+.ansShow{
+    // transition: all 1s ease-out;
+    overflow: hidden;
+    transition: all 0.5 ease-in-out;
+}
+
+.projectItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .projectImg{
+        max-width: 180px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    .projectDesc{
+        font-size: 14px;
+    }
+    .projectTime{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+
+.projectList{
+    position: relative;
+    .viewMore{
+        margin-top: -24px;
+    }
+}
+
+.searchItemGroup{
+    max-width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    color: #D8D7DC;
+}
+.searchItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+
+    .searchImg {
+        margin-left: 10px;
+    }
+}
