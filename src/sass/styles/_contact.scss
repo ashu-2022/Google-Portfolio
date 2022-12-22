@@ -1,0 +1,76 @@
+.contact-wrapper{
+    min-height: 100vh;
+    width: 100vw;
+
+
+    .contact{
+        border: 1px solid rgb(243, 241, 241);
+        border-radius: 16px;
+        max-width: 75%;
+        margin: auto;
+        min-height: 60vh;
+        background-color: #f0f1f3;
+    }
+
+
+}
+
+
+.contact-form{
+    max-width: 90%;
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .form-control{
+        border-radius: 20px;
+        line-height: 1.8;
+    }
+    button{
+        border: 1.5px solid #cdd4da;
+        border-radius: 12px;
+        padding: 6px 22px;
+        background-color: #fff;
+        &:hover{
+            opacity: 0.8;
+            background-color: #cdd4da;
+        }
+
+    }
+}
+
+.ContactDetails{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-detail-item{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+
+    a:hover{
+        color: #6c757e;
+    }
+    .contact-itex-img{
+        background-color: #ccc;
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        img{
+            width: 16px;
+            object-fit: cover;
+        }
+
+        &:hover{
+            opacity: 0.8;
+            background-color: #e1dbdb
+        }
+    }
+    .contact-item-text{
+        color:#6c757e;
+    }
+}

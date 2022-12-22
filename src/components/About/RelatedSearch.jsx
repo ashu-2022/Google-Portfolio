@@ -28,8 +28,8 @@ const searchList = [
         id:4,
         image:searchIcon,
         text_1:"Ashutosh's",
-        text_2:"Location",
-        linkHrf:"/map",
+        text_2:"Education",
+        linkHrf:"/skills",
     },
 ]
 

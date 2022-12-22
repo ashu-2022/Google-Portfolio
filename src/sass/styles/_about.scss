@@ -29,9 +29,9 @@
 
 .social-profile-wrapper{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
 
     img{
         padding-bottom: 5px;
@@ -107,7 +107,7 @@
     justify-content: flex-start;
     align-items: center;
     gap:15px;
-
+    min-width: 280px;
     .searchImg {
         margin-left: 10px;
     }

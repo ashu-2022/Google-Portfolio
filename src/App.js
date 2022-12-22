@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
-import { Header, Footer, About, Skills, Projects, Contact, Map, PageNotFound } from './components';
+import { Header, Footer, About, Skills, Projects, Contact, PageNotFound } from './components';
 const App = () => {
   return (
     <>
@@ -10,7 +10,6 @@ const App = () => {
         <Route path='/skills' element={<Skills/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/map' element={<Map/>} />
         <Route path='/*' element={<PageNotFound/>} />
       </Routes>
       <Footer/>

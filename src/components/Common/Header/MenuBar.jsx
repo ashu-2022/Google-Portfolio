@@ -4,7 +4,6 @@ import {
   penIcon,
   tvIcon,
   callIcon,
-  mapIcon,
 } from "../../../assets";
 import { NavLink } from "react-router-dom";
 
@@ -15,7 +14,6 @@ const MenuBar = () => {
         <MenuBarItem title="Skills" imgSrc={penIcon} hrfLink="/skills" />
         <MenuBarItem title="Projects" imgSrc={tvIcon} hrfLink="/projects" />
         <MenuBarItem title="Contact" imgSrc={callIcon} hrfLink="/contact" />
-        <MenuBarItem title="Map" imgSrc={mapIcon} hrfLink="/map" />
       </div>
   );
 };

@@ -2,6 +2,7 @@ import resumePdf from "./resume/Ashutosh_Pandit.pdf"
 import ashutosh from "./images/ashutosh.webp"
 import instaClone from "./images/InstaClone.webp"
 import googleLogo from "./icons/google_full_logo.webp";
+import sendIcon from "./svg/sendIcon.svg"
 import searchIcon from "./svg/search.svg";
 import voiceSearchIcon from "./svg/voice_search.svg";
 import imageSearchIcon from "./icons/image_search.svg";
@@ -27,6 +28,9 @@ import downArrow from "./svg/down_arrow.svg"
 import rightArrow from "./svg/right_arrow.svg"
 import videoPlay from "./svg/videoPlay.svg"
 import threeDots from "./svg/threeDots.svg"
+import mobileIcon from "./svg/mobile.svg"
+import locationIcon from "./svg/location.svg"
+import emailIcon from "./svg/email.svg"
 
 export {
   googleLogo,
@@ -41,6 +45,10 @@ export {
   callIcon,
   mapIcon,
   searchLensIcon,
+  sendIcon,
+  mobileIcon,
+  locationIcon,
+  emailIcon,
   ashutosh,
   download,
   github,
