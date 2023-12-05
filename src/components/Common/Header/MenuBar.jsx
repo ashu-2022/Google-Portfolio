@@ -22,8 +22,8 @@ export default MenuBar;
 
 export const MenuBarItem = ({ imgSrc, title, hrfLink }) => {
   return (
-    <div className="menu-bar-item">
-      <NavLink to={hrfLink}>
+    <div className="menu-bar-item ">
+      <NavLink to={hrfLink} className="flex justify-center gap-1">
         <img src={imgSrc} alt={title} />
         <span>{title}</span>
       </NavLink>

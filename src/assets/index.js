@@ -31,6 +31,38 @@ import threeDots from "./svg/threeDots.svg"
 import mobileIcon from "./svg/mobile.svg"
 import locationIcon from "./svg/location.svg"
 import emailIcon from "./svg/email.svg"
+import Angular from './skills/angular.svg';
+import Bootstrap from './skills/bootstrap.svg'
+import C from './skills/c.svg';
+import CPP from './skills/c++.svg'
+import ChartJs from './skills/chartjs.svg'
+import Django from './skills/django.svg'
+import Express from './skills/express.svg'
+import FastAPI from './skills/fastapi.svg'
+import Figma from './skills/figma.svg'
+import Firebase from './skills/firebase.svg'
+import Flask from './skills/flask.svg'
+import Git from './skills/git.svg'
+import Github  from './skills/github_bg_white.png'
+import HTML  from './skills/html5.svg'
+import JavaScript from './skills/javascript.svg'
+import Linux from './skills/linux.svg'
+import MaterialUI from './skills/materialui.svg'
+import MongoDB from './skills/mongodb.jpeg'
+import MySQL from './skills/mysql.svg'
+import NextJS from './skills/nextjs.svg'
+import NodeJS from './skills/nodejs.svg'
+import Python from './skills/python.svg'
+import ReactLogo from './skills/react.svg'
+import Redux from './skills/redux.svg'
+import Sass from './skills/sass.svg'
+import ShellScript from './skills/shellscript.svg'
+import Tailwind from './skills/talwind.svg'
+import TypeScript from './skills/typescript.svg'
+import Ubuntu from './skills/ubuntu.png'
+import Vim from './skills/vim.svg'
+import Vscode from './skills/vscode.svg'
+import Webpack from './skills/webpack.svg'
 
 export {
   googleLogo,
@@ -65,5 +97,37 @@ export {
   videoPlay,
   threeDots,
   resumePdf,
-  instaClone
+  instaClone,
+  Angular,
+  Bootstrap,
+  C,
+  CPP,
+  ChartJs,
+  Django,
+  Express,
+  FastAPI,
+  Figma,
+  Firebase,
+  Flask,
+  Git,
+  Github,
+  HTML,
+  JavaScript,
+  Linux,
+  MaterialUI,
+  MongoDB,
+  MySQL,
+  NextJS,
+  NodeJS,
+  Python,
+  ReactLogo,
+  Redux,
+  Sass,
+  ShellScript,
+  Tailwind,
+  TypeScript,
+  Ubuntu,
+  Vim,
+  Vscode,
+  Webpack
 };

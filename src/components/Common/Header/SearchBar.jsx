@@ -15,9 +15,6 @@ const SearchBar = () => {
         </a>
         <SearchInput />
     </div>
-    {/* <div className="searchBars">
-  
-    </div> */}
     <div className="account-setting">
       <div className="menu-item">
         <img src={settingIcon} alt="setting icon" />

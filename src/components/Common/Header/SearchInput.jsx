@@ -10,12 +10,12 @@ const SearchInput = () => {
 
   return (
     <div className="searchInput-container">
-      <div className="form-group searchInput">
+      <div className="form-group searchInput flex justify-between items-center">
         <input
           type="text"
           value={search}
           name="seach"
-          className="form-control "
+          className="form-control flex-1"
           onChange={searchChangeHandler}
         />
         <SearchIcons />

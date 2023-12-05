@@ -3,12 +3,12 @@ import AboutCard from "./AboutCard"
 import Experience from "./Experience"
 const index = () => {
   return (
-    <main className='about-wrapper'>
-      <div className='row'>
-        <section className='aboutLeft col-8 '>
+    <main className='w-[90%] mx-auto'>
+      <div className='flex justify-between'>
+        <section>
           <Experience/>
         </section>
-        <aside className='aboutRight col-4'>
+        <aside className='max-w-[400px]'>
             <AboutCard/>
         </aside>
       </div>
