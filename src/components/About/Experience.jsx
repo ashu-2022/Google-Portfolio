@@ -41,7 +41,7 @@ const Experience = () => {
                   </div>
                   <ul className='mb-0'>
                       <li>Migrates company tech stack from Angular to React for a few major products.</li>
-                      <li>Build <a href='https://www.causalfunnel.com/?utm_source=Ashutosh_Porfolio' target="_blank" rel="noopener noreferrer">conversiongrader.com</a>  website from scratch</li>
+                      <li>Build <a href='https://www.conversiongrader.com/?utm_source=Ashutosh_Porfolio' target="_blank" rel="noopener noreferrer">conversiongrader.com</a>  website from scratch</li>
                       <li>Developed & Published <a href='https://apps.shopify.com/causalfunnel-datascience/?utm_source=Ashutosh_Porfolio' target="_blank" rel="noopener noreferrer">CausalFunnel DataScience</a> app on Shopify App Store</li>
                 </ul>
                 <p className='mt-1'><strong className='text-muted'>Skills: </strong> React.js, Angular, Shopify, Node.js, Firebase, Python, JavaScript, TypeScript</p>

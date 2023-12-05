@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Technical from "./Technical"
 const index = () => {
   return (
-    <div>Skills</div>
+    <>
+      <Technical/>
+    </>
   )
 }
 
