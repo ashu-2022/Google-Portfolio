@@ -115,7 +115,7 @@ const Technical = () => {
           btnText={"Backend"}
         />
       </div>
-      <div className='mt-12 flex justify-center items-center gap-8 flex-wrap className="mx-auto max-w-3xl"'>
+      <div className='mt-12 flex justify-center items-center gap-8 flex-wrap mx-auto'>
         {selectedSkills.map((item, index) => (
           <div
             key={index}

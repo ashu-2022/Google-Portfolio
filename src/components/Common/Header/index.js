@@ -3,7 +3,7 @@ import MenuBar from "./MenuBar";
 import SearchBar from "./SearchBar";
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div className="w-[95%] mx-auto border-b-[0.5px] border-b-gray-200">
       <SearchBar />
       <MenuBar />
     </div>
