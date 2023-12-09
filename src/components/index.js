@@ -5,5 +5,6 @@ import Skills from "./Skills"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import PageNotFound from "./PageNotFound"
+import Home from "./Home";
 
-export { Header, Footer, About, Skills, Projects, Contact, PageNotFound };
+export { Header, Footer, About, Skills, Projects, Contact, PageNotFound ,Home};
