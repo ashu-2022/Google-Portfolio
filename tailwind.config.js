@@ -17,6 +17,9 @@ module.exports = {
     extend: {
       colors: {
         'heading-blue':'#1a0dab'
+      },
+      flexGrow: {
+        2: '2'
       }
     },
   },

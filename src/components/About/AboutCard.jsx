@@ -11,6 +11,7 @@ import {
   youtube,
   resumePdf,
 } from "../../assets";
+import { NavLink } from "react-router-dom";
 
 const AboutCard = () => {
   return (
@@ -27,15 +28,15 @@ const AboutCard = () => {
           A passionate self-thaught FullStack Developer from India, who loves
           building applications from the scratch with full ownership of work
         </p>
-      <a
-        className="px-20 py-2 w-[75%] bg-gray-200 rounded-full mt-[50px] no-underline hover:bg-[#D8D7DC] hover:text-[#0a58ca]"
+      <NavLink
+        className=" py-2 w-full px-8 lg:w-[75%] lg:px-20 bg-gray-200 rounded-full mt-[50px] no-underline hover:bg-[#D8D7DC] hover:text-[#0a58ca]"
         to={resumePdf}
         target="_blank"
         rel="noopener noreferrer"
       >
         Ashutosh's Resume
         <img className="w-4 h-4 inline ml-2" src={download} alt="download" />
-      </a>
+      </NavLink>
       <hr className="my-5"/>
 
       <div className="my-2 text-left flex flex-col items-start gap-3">
@@ -57,8 +58,8 @@ const AboutCard = () => {
         </a>
         <a
             href="#"
-            target="_blank"
-          rel="noopener noreferrer"
+          //   target="_blank"
+          // rel="noopener noreferrer"
           >
             <img src={linkUrl} alt="Portfolio" className="inline w-5"/>{" "}
             Portfolio website

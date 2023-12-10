@@ -5,19 +5,18 @@ import RelatedSearch from "./RelatedSearch";
 
 const Experience = () => {
   return (
-    <div className="ml-40 pr-12">
+    <div className="">
       <div className=" mt-5">
-        <h4 className="text-2xl font-base text-heading-blue">
+        <h4 className="text-xl sm:text-2xl font-base text-heading-blue">
           Ashutosh Pandit : FullStack Developer
         </h4>
         <p>
           Experience FullStack Developer with a passion for devloping thing from
-          scratch that expedite the efficiency and effectiveness of
-          organizational success.
+          scratch that solve real-world problems and assist businesses, taking full ownership of the work
         </p>
       </div>
-      <div className="p-4">
-        <h4 className="text-2xl font-base text-heading-blue mb-2">
+      <div className="p-2 sm:p-4">
+        <h4 className="text-xl sm:text-2xl font-base text-heading-blue mb-2">
           Work Experience
         </h4>
         <div className="">

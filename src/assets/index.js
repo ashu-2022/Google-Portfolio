@@ -1,6 +1,7 @@
 import resumePdf from "./resume/Ashutosh_Pandit.pdf"
 import ashutosh from "./images/ashutosh.webp"
 import instaClone from "./images/InstaClone.webp"
+import CompetitiveExamApp from "./images/Competitive_Exam_App.webp"
 import googleLogo from "./icons/google_full_logo.webp";
 import sendIcon from "./svg/sendIcon.svg"
 import searchIcon from "./svg/search.svg";
@@ -129,5 +130,6 @@ export {
   Ubuntu,
   Vim,
   Vscode,
-  Webpack
+  Webpack,
+  CompetitiveExamApp
 };

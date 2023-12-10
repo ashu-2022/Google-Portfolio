@@ -1,32 +1,32 @@
 import React from "react";
-import { threeDots, instaClone, rightArrow } from "../../assets";
+import { threeDots, instaClone, CompetitiveExamApp, rightArrow } from "../../assets";
 import { NavLink } from "react-router-dom";
 
 const ProjectList = [
   {
     id: 1,
-    title: "Instagram Clone Using Django",
-    image: instaClone,
+    title: "Competitive Exam App",
+    image: CompetitiveExamApp,
     platform: "Github",
-    link: "https://github.com/ashu-2022/instagram-clone",
-    time: "Jun 2021",
-    desc: " Build an Instagram Clone using django, html, css, javascript, bootstap",
+    link: "projects",
+    time: "Nov 2023",
+    desc: " Build a Competitive Exam App using React, Redux, Tailwind CSS, javascript",
   },
   {
     id: 2,
     title: "Instagram Clone Using Django",
     image: instaClone,
     platform: "Github",
-    link: "https://github.com/ashu-2022/instagram-clone",
+    link: "/projects",
     time: "Jun 2021",
-    desc: " Build an Instagram Clone using django, html, css, javascript, bootstap",
+    desc: " Build an Instagram Clone using Django, HTML, CSS, Javascript, BootStrap",
   },
 ];
 
 const Projects = () => {
   return (
     <div className="mt-5">
-      <h4 className="text-2xl font-semibold">
+      <h4 className="text-xl sm:text-2xl font-semibold">
         Project Videos{" "}
         <img src={threeDots} alt="Triple Dots" className="inline w-6" />
       </h4>
@@ -43,10 +43,10 @@ const Projects = () => {
           />
         );
       })}
-      <div className="horizontal mt-4"></div>
+      <hr className="mt-4"/>
 
       <NavLink to="/projects">
-        <div className="flex gap-1 justify-center px-10 py-[6px] w-[50%] bg-gray-200 rounded-full  hover:bg-[#D8D7DC] hover:text-[#0a58ca] mx-auto mt-[-24px]">
+        <div className="flex gap-1 justify-center px-10 py-[6px] xs:w-[70%] sm:w-[50%] bg-gray-200 rounded-full  hover:bg-[#D8D7DC] hover:text-[#0a58ca] mx-auto mt-[-22px]">
           <p>View all</p>
           <img src={rightArrow} alt="view more" className="w-6" />
         </div>
@@ -68,21 +68,18 @@ export const ProjectItem = ({
   return (
     <>
       <hr className="mt-4" />
-      <div className="flex items-center gap-5 p-4">
-        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
-          <img className="w-60 rounded-lg" src={image} alt={title} />
-        </a>
-        <div>
-          <a
-            href={linkUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+      <div className="flex items-center flex-wrap sm:flex-nowrap gap-5 p-4">
+        <NavLink to={linkUrl} className="cursor-pointer">
+          <img className="w-60 rounded-lg border-2 border-indigo-100 shadow-sm" src={image} alt={title} />
+          </NavLink>
+        <div className="mb-auto">
+          <h1
             className="text-heading-blue"
           >
             {title}
-          </a>
+          </h1>
           <p className="text-sm">{desc}</p>
-          <div className="flex items-center gap-4 mt-2">
+          <div className="flex items-center flex-wrap gap-x-4 mt-2">
             <span className="font-semibold text-md text-gray-500">
               {platform}
             </span>

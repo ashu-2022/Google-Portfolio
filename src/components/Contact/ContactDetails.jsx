@@ -3,30 +3,36 @@ import { mobileIcon, emailIcon, locationIcon } from "../../assets";
 
 const ContactDetails = () => {
   return (
-    <div className="ContactDetails mt-5">
-      <div className="contact-detail-item">
-        <div className="contact-itex-img">
-          <img src={emailIcon} alt="email" />
+    <>
+      <div className="ml-4 my-2 text-gray-500 flex items-center gap-3">
+        <div className="bg-gray-400 hover:bg-gray-500 w-[40px] h-[40px] rounded-full">
+          <img className="w-5 m-auto h-full" src={emailIcon} alt="email" />
         </div>
-        <a href="mailto:ashutoshpandit308@gmail.com">
-        <p className="ms-2 contact-item-text">ashutoshpandit308@gmail.com</p></a>
+        <a href="mailto:ashutoshpandit308@gmail.com" rel="noreferrer noopener">
+          ashutoshpandit308@gmail.com
+        </a>
       </div>
-      <div className="contact-detail-item">
-        <div className="contact-itex-img">
-          <img src={mobileIcon} alt="mobile" />
+      <div className="ml-4 my-2 text-gray-500 flex items-center gap-3">
+        <div className="bg-gray-400 hover:bg-gray-500 w-[40px] h-[40px] rounded-full">
+          <img className="w-5 m-auto h-full" src={mobileIcon} alt="mobile" />
         </div>
-        <p className="ms-2 contact-item-text">+91-9667626371</p>
+        <a href="tel:9667626371" rel="noreferrer noopener">
+          +91-9667626371
+        </a>
       </div>
-      <div className="contact-detail-item">
-        <div className="contact-itex-img">
-          <img src={locationIcon} alt="location" />
+
+      <div className="ml-4 my-2 text-gray-500 flex items-center gap-3">
+        <div className="bg-gray-400 hover:bg-gray-500 w-[40px] h-[40px] rounded-full">
+          <img
+            className="w-5 m-auto h-full"
+            src={locationIcon}
+            alt="location"
+          />
         </div>
-        <p className="ms-2 contact-item-text">Noida (U.P.), India</p>
+        <p className="">Noida (U.P.), India</p>
       </div>
-    </div>
+    </>
   );
 };
 
 export default ContactDetails;
-
-

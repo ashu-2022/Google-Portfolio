@@ -123,6 +123,7 @@ const Technical = () => {
           >
             <img
               src={item}
+              alt="skill logo"
               className="max-w-[50px] sm:max-w-[80px] h-full rounded-full m-auto object-contain"
             />
           </div>

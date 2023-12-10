@@ -1,71 +1,71 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
 
-p{
-    margin-bottom: 0px;
-}
+// p{
+//     margin-bottom: 0px;
+// }
 
-a{
-    text-decoration: none;
-    &:hover{
-        text-decoration: underline;
-    }
-}
+// a{
+//     text-decoration: none;
+//     &:hover{
+//         text-decoration: underline;
+//     }
+// }
 
-#root{
-    overflow: hidden;
-}
+// #root{
+//     overflow: hidden;
+// }
 
-.flex-horz{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-}
-.flex-vert{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-}
+// .flex-horz{
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+// }
+// .flex-vert{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         align-items: center;
+// }
 
-.headingTitle{
-    color: #1a0dab;
-    font-weight: 400;
-}
+// .headingTitle{
+//     color: #1a0dab;
+//     font-weight: 400;
+// }
 
-.horizontal{
-    background: #dadce0;
-    height: 1px;
-    width: 100%;
-    margin-bottom:4px
-}
+// .horizontal{
+//     background: #dadce0;
+//     height: 1px;
+//     width: 100%;
+//     margin-bottom:4px
+// }
 
-.customBtn{
-    text-decoration: none;
-    background: #f1f3f4;
-    border: 1px solid rgba(255,255,255,0);
-    box-sizing: border-box;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 20px;
-    pointer-events: auto;
-    position: relative;
-    max-width: 300px;
-    padding: 7px 11px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 36px;
-    border-radius: 18px;
-    color: #1e1f23;
+// .customBtn{
+//     text-decoration: none;
+//     background: #f1f3f4;
+//     border: 1px solid rgba(255,255,255,0);
+//     box-sizing: border-box;
+//     cursor: pointer;
+//     font-size: 14px;
+//     line-height: 20px;
+//     pointer-events: auto;
+//     position: relative;
+//     max-width: 300px;
+//     padding: 7px 11px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-left: auto;
+//     margin-right: auto;
+//     height: 36px;
+//     border-radius: 18px;
+//     color: #1e1f23;
 
-    &:hover{
-        background-color: #D8D7DC;
-    }
-}
+//     &:hover{
+//         background-color: #D8D7DC;
+//     }
+// }

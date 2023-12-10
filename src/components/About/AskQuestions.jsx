@@ -22,7 +22,7 @@ const question_answer_list = [
 const AskQuestions = () => {
     return (
         <div className='mt-3'>
-            <h4 className='text-2xl font-semibold'>People also ask <img src={threeDots} alt="Triple Dots" className='inline w-6' /></h4>
+            <h4 className='text-xl sm:text-2xl font-semibold'>People also ask <img src={threeDots} alt="Triple Dots" className='inline w-6' /></h4>
             <hr className='mt-3'/>
             {
                 question_answer_list.map((item) => <QuestionAns key={item.id} ques={item.ques} ans={item.ans} />)
