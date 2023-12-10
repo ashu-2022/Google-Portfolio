@@ -2,7 +2,6 @@
 
 ## Tech Stack 
 - React.js
-- Redux
 - Tailwind CSS
 
 ## Project Structure
